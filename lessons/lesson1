@@ -30,8 +30,8 @@ $array1 = array(
 
 // 4と同様に内容を指定し、たい
 $array2 = array(name, age, job) {
-  key1 => "佐藤", "36才", "営業";
-  key2 => "田中", "23才", "事務";
-  key3 => "吉田", "54才", "社長";
+  key1 => array("name" => "佐藤", "age" => "36才", "job" => "営業")
+  key2 => array("name" => "田中", "age" => "23才", "job" => "事務")
+  key3 => array("name" => "吉田", "age" => "54才", "job" => "社長")
 }
  echo $array2["key2"]["age"];
