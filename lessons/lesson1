@@ -2,6 +2,7 @@
  // レッスン1と表示する
  echo"lesson1";
 
+
  // 変数にHello Worldを代入する
  $newText = "Hello World";
  echo $newText;
@@ -11,6 +12,7 @@
  $name = "shota";
  echo "Welcome" . $name;
 
+
  // 文字列ではない数字の場合” ”を使わない
  // リンゴとミカンの額を代入する
  $apple = 200;
@@ -18,6 +20,7 @@
  $mandarinOrange = 100;
  $mandarinOrangeQuantity = 4;
  echo $apple * $appleQuantity + $mandarinOrange * $mandarinOrangeQuantity;
+
 
  // 配列の中身と対応している色を指定する
 $array1 = array(
@@ -28,10 +31,11 @@ $array1 = array(
  // blueはKey2なのでKey2を指定する
  echo $array1["key2"]["color"];
 
+
 // 4と同様に内容を指定し、たい
 $array2 = array(name, age, job) {
-  key1 => array("name" => "佐藤", "age" => "36才", "job" => "営業")
-  key2 => array("name" => "田中", "age" => "23才", "job" => "事務")
+  key1 => array("name" => "佐藤", "age" => "36才", "job" => "営業"),
+  key2 => array("name" => "田中", "age" => "23才", "job" => "事務"),
   key3 => array("name" => "吉田", "age" => "54才", "job" => "社長")
-}
+};
  echo $array2["key2"]["age"];
