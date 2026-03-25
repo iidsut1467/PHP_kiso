@@ -9,7 +9,7 @@
 
  // 変数に自身の名前を代入する
  $name = "shota";
- echo "Welcome" + $name;
+ echo "Welcome" . $name;
 
  // 文字列ではない数字の場合” ”を使わない
  // リンゴとミカンの額を代入する
@@ -20,18 +20,18 @@
  echo $apple * $appleQuantity + $mandarinOrange * $mandarinOrangeQuantity;
 
  // 配列の中身と対応している色を指定する
-$array1(color, number) {
-  key1 => "red", "1"
-  key2 => "blue", "2"
-  key3 => "green", "3"
-}
+$array1 = array(
+    "key1" => array("color" => "red", "number" => "1"),
+    "key2" => array("color" => "blue", "number" => "2"),
+    "key3" => array("color" => "green", "number" => "3")
+);
  // blueはKey2なのでKey2を指定する
- echo $array1[key2.color];
+ echo $array1["key2"]["color"];
 
 // 4と同様に内容を指定し、たい
-$array2(name, age, job) {
+$array2 = array(name, age, job) {
   key1 => "佐藤", "36才", "営業";
   key2 => "田中", "23才", "事務";
   key3 => "吉田", "54才", "社長";
 }
- echo $array2[key2.age];
+ echo $array2["key2"]["age"];
