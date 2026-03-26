@@ -43,10 +43,18 @@ echo $number;
 
 
 $sentence = "しんぶんし";
-if(strrev($sentence) === $sentence) {
-    echo "回文です";
+$length = $sentence.length;
+if($length % 2 === 0) {
+    if(for(i = 0; i = $length; i ++) {
+        $sentence[0 + i] = $sentence[$length - i]; 
+        // $sentenceの文字数を入力して最大と最小を比較して合ってる場合次に進む、最大最小から１小さいものを比べて合ってる場合次に進むを繰り返す
+        // この場合、奇数だった時に正しく回文か判定ができない。
+        }){
+        echo "回文です";
+    } else {
+        echo "回文ではありません";
+    }
 } else {
-    echo "回文ではありません";
-}
-
+    if(for(i = 0;
+    
 ?>
