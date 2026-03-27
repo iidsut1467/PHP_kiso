@@ -32,7 +32,7 @@ $array1 = array(
  echo $array1["key2"]["color"];
 
 
-// 4と同様に内容を指定し、たい
+// 4と同様に内容を指定したい
 $array2 = array(
   "key1" => array("name" => "佐藤", "age" => "36才", "job" => "営業"),
   "key2" => array("name" => "田中", "age" => "23才", "job" => "事務"),
