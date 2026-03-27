@@ -45,7 +45,8 @@ echo $number;
 $sentence = "しんぶんし";
 $length = $sentence.length;
 if($length % 2 === 0) {
-    if(for(i = 0; i = $length; i ++) { $sentence[0 + i] = $sentence[$length - i];} 
+    if(
+        for(i = 0; i = $length; i ++) { $sentence[0 + i] = $sentence[$length - i];} 
         // $sentenceの文字数を入力して最大と最小を比較して合ってる場合次に進む、最大最小から１小さいものを比べて合ってる場合次に進むを繰り返す　偶数:1-4, 2-3, 3-2, 4-1　奇数:1-5, 2-4, 3-3, 4-2, 5-1
         // この場合、奇数だった時に正しく回文か判定ができない。　→　できた
         } echo "回文です";
