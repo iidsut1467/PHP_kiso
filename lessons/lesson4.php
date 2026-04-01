@@ -50,6 +50,7 @@ $isPalindrome = true;
 for($i = 0; $i = $length/2; $i ++) {
   if($sentence[0 + i] = $sentence[$length - i]) {
     $isPalindrome = false;
+    break;
 }}
 // if文にfor文を入れるとエラーを吐いてしまうため、暫定的にこうしている
 
