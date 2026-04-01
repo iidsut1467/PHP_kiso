@@ -43,15 +43,19 @@ echo $number;
 
 
 // 5
+// 判別する回文の変数、その回文の文字数の変数、回分の真偽の変数を用意 → for文で回分かどうかを判別する → その中で合致しなかった場合回分の真偽を偽にしてループを終える → その真偽に従って回分かどうかを出力する
 $sentence = "しんぶんし";
 $length = $sentence[];
 $isPalindrome = true;
 // 判別する回文の変数とその文字数の変数と実際回分かどうかの変数があれば回文かどうかのフラグは建てられるはず
 for($i = 0; $i = $length/2; $i ++) {
-  if($sentence[0 + i] = $sentence[$length - i]) {
+    $sentence[0 + $i] = $sentence[$length - $i]
+        // この合致してる場合の部分をifにしたいがエラーを吐くためできない
     $isPalindrome = false;
     break;
-}}
+} {
+    
+}
 // if文にfor文を入れるとエラーを吐いてしまうため、暫定的にこうしている
 
 
