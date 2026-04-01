@@ -1,18 +1,21 @@
 <?php
+ // 1
  // レッスン1と表示する
  echo"lesson1";
 
 
+ // 2
  // 変数にHello Worldを代入する
  $newText = "Hello World";
  echo $newText;
 
-
+ // 3
  // 変数に自身の名前を代入する
  $name = "shota";
  echo "Welcome" . $name;
 
 
+ // 4
  // 文字列ではない数字の場合” ”を使わない
  // リンゴとミカンの額を代入する
  $apple = 200;
@@ -22,6 +25,7 @@
  echo $apple * $appleQuantity + $mandarinOrange * $mandarinOrangeQuantity;
 
 
+ // 5
  // 配列の中身と対応している色を指定する
 $array1 = array(
     "key1" => array("color" => "red", "number" => "1"),
@@ -32,6 +36,7 @@ $array1 = array(
  echo $array1["key2"]["color"];
 
 
+// 6
 // 4と同様に内容を指定したい
 $array2 = array(
   "key1" => array("name" => "佐藤", "age" => "36才", "job" => "営業"),
