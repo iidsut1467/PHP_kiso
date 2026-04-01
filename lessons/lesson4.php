@@ -52,7 +52,7 @@ for($i = 0; $i = $length/2; $i ++) {
   if($sentence[0 + i] = $sentence[$length - i]) {
     $isPalindrome = false;
 }}
-// この書き方だと必ず回文ではないになるがif文にfor文を入れるとエラーを吐いてしまうため、暫定的にこうしている
+// if文にfor文を入れるとエラーを吐いてしまうため、暫定的にこうしている
 
     if($isPalindrome = true) {
      echo "回文です";
