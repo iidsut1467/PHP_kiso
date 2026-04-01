@@ -1,18 +1,19 @@
 <?php 
+// 1
 for($i = 0; $i <= 100; $i++) {
     if($i % 10 === 0) {
         echo $i;
     }
 }
 
-
+// 2
 for($i = 0; $i <= 100; $i++) {
     if($i % 2 === 0) {
         echo $i;
     }
 }
 
-
+// 3
 for($i = 0; $i <= 100; $i++) {
     if($i % 3 === 0 && $i % 5 === 0) {
         echo "FizzBuzz";
@@ -25,7 +26,7 @@ for($i = 0; $i <= 100; $i++) {
     }
 }
 
-
+// 4
 $array = array(1, 2, 3, 4, 5);
 $number = 0;
 
@@ -41,18 +42,17 @@ if($array[0] > $array[1]) {
 echo $number;
 
 
-
+// 5
 $sentence = "しんぶんし";
 $length = $sentence[];
 $isPalindrome = true;
 // 判別する回文の変数とその文字数の変数と実際回分かどうかの変数があれば回文かどうかのフラグは建てられるはず
-
-
 for($i = 0; $i = $length/2; $i ++) {
   if($sentence[0 + i] = $sentence[$length - i]) {
     $isPalindrome = false;
 }}
 // if文にfor文を入れるとエラーを吐いてしまうため、暫定的にこうしている
+
 
     if($isPalindrome = true) {
      echo "回文です";
