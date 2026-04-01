@@ -45,20 +45,21 @@ echo $number;
 $sentence = "しんぶんし";
 $length = $sentence[];
 $isPalindrome = true;
+// 判別する回文の変数とその文字数の変数と実際回分かどうかの変数があれば回文かどうかのフラグは建てられるはず
 
 
-
-for(i = 0; i = $length; i ++) {
+for($i = 0; $i = $length/2; $i ++) {
   if($sentence[0 + i] = $sentence[$length - i]) {
     $isPalindrome = false;
 }}
-
+// この書き方だと必ず回文ではないになるがif文にfor文を入れるとエラーを吐いてしまうため、暫定的にこうしている
 
     if($isPalindrome = true) {
      echo "回文です";
     } else {
     echo "回文ではありません"; 
 }
+// 回文であるフラグが真な場合、回文です。偽な場合、回文ではありません。を出力する
 
     
 
