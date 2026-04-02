@@ -62,3 +62,5 @@ if($isPalindrome === true) {
 } else {
     echo "回文ではありません";
 }
+
+?>
